@@ -17,5 +17,4 @@ def login(request):
 	return render(request, 'login.html', context={})
 
 def home(request):
-	import pdb;pdb.set_trace()
 	return render(request, 'home.html', context={})
